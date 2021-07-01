@@ -46,7 +46,7 @@
                         <el-breadcrumb-item>{{this.$router.currentRoute.name}}</el-breadcrumb-item>
                     </el-breadcrumb>
                     <div class="homeWelcome" v-if="this.$router.currentRoute.path=='/admin/home'">
-                        欢迎来到小L星光站！
+                        欢迎来到Inwhite博客
                     </div>
                     
                     <router-view/>
@@ -84,7 +84,6 @@
                                 message: '已取消注销'
                             });          
                         });
- 
                 }
             }
         }
